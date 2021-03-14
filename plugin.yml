@@ -1,0 +1,20 @@
+name: TabListPro
+author: Joedon
+main: me.joedon.TabListPro
+version: 1.2.2
+softdepend: [EZRanksPro, PlaceholderAPI]
+commands:
+    tablistpro:
+       description: Main command for TabListPro
+       usage: /<Command>
+    tlp:
+       description: Main command for TabListPro
+       usage: /<Command>
+       aliases: [tablistpro]
+permissions:
+    tablistpro.set:
+       description: Permission to use /tablistedit set
+       default: op
+    tablistpro.reload:
+       description: Permission to use /tablistedit reload
+       default: op
